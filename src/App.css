@@ -1,0 +1,80 @@
+.main-wrapper {
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.page {
+    color: black;
+    margin: 20px;
+}
+
+.interactions {
+    text-align: center;
+}
+
+.table {
+    margin: 20px 0;
+}
+
+.table-header {
+    display: flex;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 0 10px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.table-empty {
+    margin: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table-row {
+    display: flex;
+    line-height: 24px;
+    white-space: nowrap;
+    margin: 10px 0;
+    padding: 10px;
+    background: white;
+    border: 1px solid #e3e3e3;
+}
+
+.table-row:hover{
+  border-radius: 15px;
+  box-shadow: 0px 0px 8px 0px red;
+}
+.table-header>span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+}
+
+.table-row>span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+}
+
+.button-inline {
+    border-width: 0;
+    background: transparent;
+    color: inherit;
+    text-align: inherit;
+    -webkit-font-smoothing: inherit;
+    padding: 0;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.button-active {
+    border-radius: 0;
+    border-bottom: 1px solid #38BB6C;
+}
